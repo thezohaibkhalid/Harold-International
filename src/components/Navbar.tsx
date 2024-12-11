@@ -1,20 +1,19 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-
+import logo from "../assets/logo.png"
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md  top-0 left-0 w-full z-50">
-      <div className="max-w-[90%] mx-auto flex items-center justify-between h-16 px-4">
+    <nav className="bg-white shadow-md  top-0 left-0 w-full  z-50">
+      <div className="max-w-[90%] mx-auto flex items-center justify-between h-[90px] px-4">
         {/* Logo */}
         <div className="flex items-center space-x-2">
           <img
-            src="/logo.png" // Replace with your logo path
+            src={logo}
             alt="Logo"
             className="h-8"
           />
-          <span className="text-lg font-semibold text-gray-800">Varsity</span>
         </div>
 
         {/* Desktop Menu */}
