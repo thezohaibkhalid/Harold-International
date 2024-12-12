@@ -1,13 +1,15 @@
 import React from "react";
 import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { motion } from 'framer-motion';
+
 import banner from "../assets/banner.jpeg";
 import banner1 from "../assets/banner_1.png";
 import banner2 from "../assets/banner_2.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import './HeroCarousel.css'
+import "./HeroCarousel.css";
 const slides = [
   {
     image: banner,
@@ -16,7 +18,7 @@ const slides = [
     buttonText: "Our Courses",
     buttonLink: "/courses",
   },
-  { 
+  {
     image: banner1,
     title: "Learn from the best educators",
     subtitle: "Achieve Your Dreams",
@@ -39,10 +41,10 @@ const HeroCarousel: React.FC = () => {
     return (
       <button
         onClick={onClick}
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 w-10 h-10 bg-gray-700 hover:bg-gray-800 text-white rounded-full flex items-center justify-center z-10"
+        className="absolute hidden lg:block md:block top-1/2 left-4 transform -translate-y-1/2 w-12 h-12 border-2 border-gray-100 hover:border-blue-500 hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-500 text-white rounded-full  items-center justify-center transition-all duration-500 ease-in-out hover:scale-110 active:scale-95 z-10 shadow-lg"
         aria-label="Previous Slide"
       >
-        <FaArrowLeft />
+        <FaArrowLeft className=" h-6 ml-3" />
       </button>
     );
   };
@@ -52,10 +54,10 @@ const HeroCarousel: React.FC = () => {
     return (
       <button
         onClick={onClick}
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 w-10 h-10 bg-gray-700 hover:bg-gray-800 text-white rounded-full flex items-center justify-center z-10"
+        className="absolute hidden lg:block md:block top-1/2 right-4 transform -translate-y-1/2 w-12 h-12 border-2 border-gray-100 hover:border-blue-500 hover:bg-blue-500 focus:outline-none focus:ring focus:ring-blue-500 text-white rounded-full  items-center justify-center transition-all duration-500 ease-in-out hover:scale-110 active:scale-95 z-10 shadow-lg"
         aria-label="Next Slide"
       >
-        <FaArrowRight />
+        <FaArrowRight className=" h-6 ml-3" />
       </button>
     );
   };
@@ -71,23 +73,11 @@ const HeroCarousel: React.FC = () => {
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
     dots: true,
-    appendDots: (dots: any) => (
-      <div
-        style={{
-          bottom: "10px",
-        }}
-        className="absolute bottom-4 left-1/2 transform -translate-x-1/2"
-      >
-        <ul className="flex space-x-2">{dots}</ul>
-      </div>
-    ),
-    customPaging: (i: number) => (
-      <div className="w-3 h-3 bg-gray-400 rounded-full transition-all hover:bg-white"></div>
-    ),
+
   };
 
   return (
-    <div className="relative w-full h-[800px] overflow-hidden">
+    <div className="relative w-full lg:h-[800px] md:h-[800px] h-[500px] overflow-hidden">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="relative w-full h-[800px]">
@@ -98,17 +88,18 @@ const HeroCarousel: React.FC = () => {
               }}
             >
               {/* Gradient Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-70"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-blue-500 via-transparent to-blue-300 opacity-70"></div>
             </div>
-            <div className="relative w-full h-full flex items-center justify-center">
-              <div className="text-center text-white px-4">
-                <h1 className="text-4xl md:text-6xl font-bold mb-4">
+            <div className="relative lg:w-[80%] md:w-[90%] w-[95%] mx-auto lg:h-[800px] md:h-[800px] h-[500px] flex items-center justify-center">
+              <div className="text-center text-white ">
+              <p className="text-lg lg:text-2xl md:text-2xl  ">{slide.subtitle}</p>
+                <h1 className="lg:text-6xl md:text-6xl text-3xl font-bold lg:pt-[20px] lg:pb-[36px] md:pt-[20px] md:pb-[36px] pt-3 pb-6">
                   {slide.title}
                 </h1>
-                <p className="text-lg md:text-2xl mb-6">{slide.subtitle}</p>
+                
                 <a
                   href={slide.buttonLink}
-                  className="px-6 py-3 text-lg md:text-xl bg-blue-500 hover:bg-blue-600 text-white rounded transition-all"
+                  className="lg:px-6 lg:py-3 md:px-5 md:py-2 px-4 py-3 text-sm lg:text-lg bg-transparent text-white font-medium rounded-full border-2 border-white hover:border-blue-500 hover:bg-blue-500 hover:text-white transform transition-all duration-500 ease-in-out hover:scale-105 focus:outline-none focus:ring-4 focus:ring-blue-300 shadow-md hover:shadow-lg"
                 >
                   {slide.buttonText}
                 </a>

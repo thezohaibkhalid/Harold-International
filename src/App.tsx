@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='font-poppins'>
       <Router>
-      <NavNavbar/>
+      {/* <NavNavbar/> */}
       <Navbar/>
       <HeroCarousel/>
       </Router>
