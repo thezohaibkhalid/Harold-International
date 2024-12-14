@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { motion } from 'framer-motion';
@@ -35,7 +35,8 @@ const slides = [
 ];
 
 const HeroCarousel: React.FC = () => {
-  // Custom arrows
+  const [currentSlide, setCurrentSlide] = useState<number>(0)
+
   const CustomPrevArrow = (props: any) => {
     const { onClick } = props;
     return (
@@ -69,15 +70,16 @@ const HeroCarousel: React.FC = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
-    speed: 500,
+    speed: 500,  
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
     dots: true,
+    beforeChange:(current:number, next:number)=> setCurrentSlide(next);
 
   };
 
   return (
-    <div className="relative w-full lg:h-[800px] md:h-[800px] h-[500px] overflow-hidden">
+    <div className="relative w-full lg:h-[800px] md:h-[800px] h-[500px] overflow-hidden cursor-pointer">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="relative w-full h-[800px]">
@@ -92,7 +94,11 @@ const HeroCarousel: React.FC = () => {
             </div>
             <div className="relative lg:w-[80%] md:w-[90%] w-[95%] mx-auto lg:h-[800px] md:h-[800px] h-[500px] flex items-center justify-center">
               <div className="text-center text-white ">
-              <p className="text-lg lg:text-2xl md:text-2xl  ">{slide.subtitle}</p>
+              <motion.p className="text-lg lg:text-2xl md:text-2xl"
+              initial={{ x: -200 }}
+              animate={{ x: 0 }}
+              transition={{ duration: 1 }}
+              >{slide.subtitle}</motion.p>
                 <h1 className="lg:text-6xl md:text-6xl text-3xl font-bold lg:pt-[20px] lg:pb-[36px] md:pt-[20px] md:pb-[36px] pt-3 pb-6">
                   {slide.title}
                 </h1>
