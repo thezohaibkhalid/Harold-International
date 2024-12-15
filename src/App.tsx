@@ -2,6 +2,8 @@ import React from 'react'
 import NavNavbar from './components/NavNavbar'
 import Navbar from './components/Navbar'
 import HeroCarousel from './components/HeroCarousel'
+import ExpertInstitution from './components/ExpertInstitution'
+
 import HeroRegestration from './components/HeroRegestration'
 import { BrowserRouter as Router } from 'react-router-dom';
 
@@ -13,6 +15,7 @@ function App() {
       <Navbar/>
       <HeroCarousel/>
       <HeroRegestration/>
+      <ExpertInstitution/>
       </Router>
     </div>
   )
