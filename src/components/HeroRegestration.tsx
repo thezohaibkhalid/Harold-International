@@ -37,7 +37,7 @@ const features = [
 
 const HeroRegistration: React.FC = () => {
   return (
-    <div className="max-w-[90%] mx-auto flex flex-col md:flex-row lg:flex-row lg:gap-40 md:gap-10  py-16">
+    <div className="max-w-[90%] mx-auto flex flex-col md:flex-row lg:flex-row lg:gap-40 md:gap-10  py-16 ">
       {/* Left Section: Features */}
 
 <div className="lg:flex-[65%] md:flex-[60%] grid grid-cols-1 sm:grid-cols-2 lg:gap-x-30 gap-x-8">

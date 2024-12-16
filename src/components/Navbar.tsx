@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md top-0 left-0 w-full z-50">
+    <nav className="bg-white shadow-md top-0 left-0 w-full z-50 fixed">
       <div className="lg:w-[95%] md:w-[98%] mx-auto flex items-center justify-between h-[90px] px-4">
         {/* Logo */}
         <div className="flex items-center space-x-2">

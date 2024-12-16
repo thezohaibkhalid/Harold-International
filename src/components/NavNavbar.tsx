@@ -17,7 +17,7 @@ const NavNavbar: React.FC = () => {
                 href="tel:+464145684325"
                 className="text-sm font-normal text-[#0b1c39] hover:text-blue-500"
               >
-                +464 145 684 325
+                +44 2081332072
               </a>
             </div>
             <div className="hidden lg:block h-6 w-px bg-gray-300"></div>

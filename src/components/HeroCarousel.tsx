@@ -77,7 +77,7 @@ const HeroCarousel: React.FC = () => {
   };
 
   return (
-    <div className="relative w-full lg:h-[800px] md:h-[800px] h-[500px] overflow-hidden cursor-pointer">
+    <div className="relative w-full lg:h-[800px] md:h-[800px] h-[500px] overflow-hidden cursor-pointer mt-[90px]">
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="relative w-full h-[800px]">
