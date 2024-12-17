@@ -6,7 +6,6 @@ import ExpertInstitution from '../components/ExpertInstitution'
 import Footer from '../components/Footer'
 
 
-
 import HeroRegestration from '../components/HeroRegestration'
 function Home() {
   return (
