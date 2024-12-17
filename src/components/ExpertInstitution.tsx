@@ -36,7 +36,7 @@ const ExpertInstitution : React.FC  = () => {
           30+ Years of Excellence in Education
         </p>
         <p className="text-gray-600 text-base leading-relaxed mb-6 max-w-xl mx-auto lg:mx-0">
-          Harold International School of London is dedicated to providing a world-class education to students from around the globe. With over 30 years of experience, we focus on fostering intellectual curiosity, developing leadership skills, and preparing students for a future of success. Our curriculum is designed to challenge students academically while nurturing their creative potential in a supportive environment.
+        Harold International College of London delivers first-class learning in a warm, supportive, holistic and nurturing atmosphere. Our aim is to help each individual student succeed in their aspirations and achieve the best possible exam results. To this end, HICL has an ethos which places an emphasis on individual support and mentoring. Students come to Harold International College of London because they want to succeed, and we are proud in helping them to do so.
         </p>
 
         {/* Call Us Section */}

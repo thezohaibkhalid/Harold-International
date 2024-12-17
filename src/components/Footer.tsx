@@ -1,45 +1,47 @@
-import React from 'react';
-import { FaFacebookF, FaTwitter, FaYoutube, FaLinkedinIn, FaSkype, FaInstagram, FaPinterest } from 'react-icons/fa';
+import { FaPhone } from "react-icons/fa6";
+import { MdMailOutline } from "react-icons/md";
+
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaYoutube,
+  FaLinkedinIn,
+  FaSkype,
+  FaInstagram,
+  FaPinterest,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 text-gray-600 py-8">
+    <footer className="bg-gray-50 text-gray-600 pt-[100px] pb-[30px]">
       <div className="container mx-auto px-4">
         {/* Footer Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4  gap-8 mb-[80px]">
           {/* Logo & Description */}
-          <div>
-            <h2 className="text-xl font-bold text-gray-800 flex items-center mb-4">
-              <span className="text-blue-600 mr-2">
-                {/* Logo (SVG or Image) */}
-                <svg
-                  className="h-6 w-6 inline-block"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path d="M2.003 5.884L10 1l7.997 4.884v8.232L10 19l-7.997-4.884V5.884z" />
-                </svg>
-              </span>
-              Varsity
-            </h2>
-            <p className="text-sm mb-4">
+          <div className="pr-[px]">
+            <img src="/src/assets/logo-bg.png" className="pb-6" alt="" />
+            <p className="text-base mb-4">
               Loo faff about cockup Harry baking cakes hunky dory mush happy
               days on your bike mate.
             </p>
             <div>
-              <p className="flex items-center text-blue-600 text-sm mb-2">
-                📞 +464 145 684 325
+              <p className="flex items-center text-blue-600 pt-4 pb-2 gap-2 text-base mb-2">
+                <FaPhone className="text-base text-blue-500 cursor-pointer" />
+                +44 208 133 2072
               </p>
-              <p className="flex items-center text-blue-600 text-sm">
-                ✉️ education@example.com
+              <p className="flex items-center text-base gap-2 text-blue-600 ">
+                <MdMailOutline className="text-lg text-blue-500" />
+                info@haroldinternationalcollege.co.uk
               </p>
             </div>
           </div>
 
           {/* Popular Courses */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">POPULAR COURSES</h3>
-            <ul className="space-y-2 text-sm">
+            <h3 className="text-lg font-medium mb-4 text-black">
+              POPULAR COURSES
+            </h3>
+            <ul className="space-y-2 text-base">
               <li>Algebra & Calculus</li>
               <li>Business Strategy</li>
               <li>Computer Security & Network</li>
@@ -51,8 +53,10 @@ const Footer = () => {
 
           {/* Course Categories */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">COURSE CATEGORIES</h3>
-            <ul className="space-y-2 text-sm">
+            <h3 className="text-lg  font-medium mb-4 text-black">
+              COURSE CATEGORIES
+            </h3>
+            <ul className="space-y-2 text-base">
               <li>Arts & Humanities</li>
               <li>Business</li>
               <li>Computer Science</li>
@@ -64,8 +68,10 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">QUICK LINKS</h3>
-            <ul className="space-y-2 text-sm">
+            <h3 className="text-lg  font-medium mb-4 text-black">
+              QUICK LINKS
+            </h3>
+            <ul className="space-y-2 text-base">
               <li>Live Class</li>
               <li>Tuition Fees</li>
               <li>Terms & Conditions</li>
@@ -77,37 +83,65 @@ const Footer = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="border-t mt-8 pt-4 text-center">
-          <p className="text-sm">
-            © Copyright 2024. Design by{' '}
+        <div className="border-t pt-6 text-center sm:flex sm:justify-between sm:items-center space-y-4 sm:space-y-0 px-4">
+          <p className="text-base">
+            © Copyright 2024. Design by{" "}
             <a href="#" className="text-blue-600 hover:underline">
-              MhrTheme
+              BitBuilder Productions
             </a>
             . All rights reserved.
           </p>
 
           {/* Social Icons */}
-          <div className="flex justify-center space-x-4 mt-4">
-            <a href="#" className="text-gray-600 hover:text-blue-600 transition">
+          <div className="flex items-center justify-center space-x-4">
+            <a
+              href="#"
+              className="group relative text-gray-600 hover:text-blue-600 transition duration-300"
+            >
               <FaFacebookF size={24} />
+              <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
             </a>
-            <a href="#" className="text-gray-600 hover:text-blue-600 transition">
+            <a
+              href="#"
+              className="group relative text-gray-600 hover:text-blue-600 transition duration-300"
+            >
               <FaTwitter size={24} />
+              <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all duration-300"></span>
             </a>
-            <a href="#" className="text-gray-600 hover:text-red-600 transition">
+            <a
+              href="#"
+              className="group relative text-gray-600 hover:text-red-600 transition duration-300"
+            >
               <FaYoutube size={24} />
+              <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-red-600 group-hover:w-full transition-all duration-300"></span>
             </a>
-            <a href="#" className="text-gray-600 hover:text-blue-700 transition">
+            <a
+              href="#"
+              className="group relative text-gray-600 hover:text-blue-700 transition duration-300"
+            >
               <FaLinkedinIn size={24} />
+              <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-blue-700 group-hover:w-full transition-all duration-300"></span>
             </a>
-            <a href="#" className="text-gray-600 hover:text-blue-500 transition">
+            <a
+              href="#"
+              className="group relative text-gray-600 hover:text-blue-500 transition duration-300"
+            >
               <FaSkype size={24} />
+              <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300"></span>
             </a>
-            <a href="#" className="text-gray-600 hover:text-pink-600 transition">
+            <a
+              href="#"
+              className="group relative text-gray-600 hover:text-pink-600 transition duration-300"
+            >
               <FaInstagram size={24} />
+              <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-pink-600 group-hover:w-full transition-all duration-300"></span>
             </a>
-            <a href="#" className="text-gray-600 hover:text-red-500 transition">
+            <a
+              href="#"
+              className="group relative text-gray-600 hover:text-red-500 transition duration-300"
+            >
               <FaPinterest size={24} />
+              <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-red-500 group-hover:w-full transition-all duration-300"></span>
             </a>
           </div>
         </div>
