@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar'
 import HeroCarousel from '../components/HeroCarousel'
 import ExpertInstitution from '../components/ExpertInstitution'
 import CourseCarousel from '../components/CourseCarousel'
+import StudentSayAboutUs from '../components/StudentSayAboutUs'
 import Footer from '../components/Footer'
 
 
@@ -17,6 +18,7 @@ function Home() {
       <HeroRegestration/>
       <ExpertInstitution/>
       <CourseCarousel/>
+      <StudentSayAboutUs/>
       <Footer/>
     </div>
   )
