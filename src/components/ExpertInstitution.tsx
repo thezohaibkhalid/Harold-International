@@ -1,5 +1,6 @@
 import React from "react";
 import Feature from "../assets/Trusted.png"; // Keep your existing image path or update it accordingly
+import "./leading.css";
 
 const ExpertInstitution : React.FC  = () => {
   return (
@@ -29,7 +30,7 @@ const ExpertInstitution : React.FC  = () => {
 
       {/* Right Side Content Section */}
       <div className="flex flex-col items-center lg:items-start text-center lg:text-left w-full sm:w-[90%] lg:w-[50%] mx-auto">
-        <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold text-gray-900 mb-4 leading-relaxed">
+        <h2 className="text-2xl sm:text-3xl lg:text-5xl font-semibold text-gray-900 mb-4 leading-relaxed leading-provider">
           Welcome to Harold International School of London
         </h2>
         <p className="text-blue-500 text-xl sm:text-2xl font-normal mb-2">
