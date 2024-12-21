@@ -28,11 +28,11 @@ const StudentSayAboutUs = () => {
   };
 
   return (
-    <div className="w-full bg-[#3070E6] text-white py-8 px-4 sm:py-12 sm:px-6 md:py-16 md:pb-20 md:px-8 lg:px-16 h-auto lg:h-[423px] md:h-[400px]">
-      <div className="w-full sm:w-[90%] mx-auto flex flex-col md:flex-row items-center lg:space-y-8 md:space-y-4 space-y-6">
+    <div className="w-full bg-[#3070E6] text-white py-8 px-4 sm:py-12 sm:px-6 md:py-16 md:pb-20 md:px-8 lg:px-16 min-h-[400px] lg:max-h-[500px]">
+      <div className="w-full sm:w-[90%] mx-auto flex flex-col md:flex-row items-center justify-center lg:space-y-8  space-y-6 md:space-y-0 md:space-x-8">
         {/* Left Text Section */}
         <div className="w-full md:w-1/2 text-center md:text-left">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[60px] font-bold mb-4 leading-tight lg:leading-snug">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[60px] font-bold  leading-tight lg:leading-snug">
             Student Say <br /> About Us.
           </h2>
           {/* Desktop navigation arrows */}
@@ -57,7 +57,7 @@ const StudentSayAboutUs = () => {
           <Slider ref={sliderRef} {...settings}>
             {/* Slide 1 */}
             <div className="text-white p-4 sm:p-6 rounded-lg">
-              <p className="text-sm sm:text-base lg:text-xl mb-6 sm:mb-10 leading-relaxed max-h-[200px] overflow-hidden">
+              <p className="text-sm sm:text-base lg:text-xl mb-6 sm:mb-4 leading-relaxed break-words">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
                 placeat perspiciatis unde laboriosam? Commodi est perferendis at
                 unde repellendus a, accusantium reiciendis sit expedita
@@ -82,12 +82,10 @@ const StudentSayAboutUs = () => {
 
             {/* Slide 2 */}
             <div className="text-white p-4 sm:p-6 rounded-lg">
-              <p className="text-sm sm:text-base lg:text-xl mb-6 sm:mb-10 leading-relaxed max-h-[200px] overflow-hidden">
+              <p className="text-sm sm:text-base lg:text-xl mb-6 sm:mb-4 leading-relaxed break-words">
                 Another slide content here for testing. Lorem ipsum dolor sit
                 amet consectetur adipisicing elit. Modi placeat perspiciatis
-                unde laboriosam? Commodi est perferendis at unde repellendus a,
-                accusantium reiciendis sit expedita dignissimos iusto, vitae
-                totam, provident non.
+                unde laboriosam?
               </p>
               <div className="flex items-center gap-4">
                 <img

@@ -13,13 +13,13 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-50 text-gray-600 pt-[100px] pb-[30px]">
-      <div className="container mx-auto px-4">
+    <footer className="bg-gray-50 text-gray-600 pt-24 pb-8 sm:pt-28 sm:pb-12 ">
+      <div className="container  px-4 w-[80%] mx-auto">
         {/* Footer Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-4  gap-8 mb-[80px]">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-20">
           {/* Logo & Description */}
-          <div className="pr-[px]">
-            <img src="/src/assets/logo-bg.png" className="pb-6" alt="" />
+          <div>
+            <img src="/SRC/assets/logo-bg.png" className="pb-6" alt="Logo" />
             <p className="text-base mb-4">
               Loo faff about cockup Harry baking cakes hunky dory mush happy
               days on your bike mate.
@@ -30,9 +30,10 @@ const Footer = () => {
                 +44 208 133 2072
               </p>
               <p className="flex items-center text-base gap-2 text-blue-600 ">
-                <MdMailOutline className="text-lg text-blue-500" />
-                info@haroldinternationalcollege.co.uk
+                <MdMailOutline className="text-base text-blue-500" />
+                info@haroldinternational 
               </p>
+              <p className="text-base gap-2 text-blue-600 ps-6">college.co.uk</p>
             </div>
           </div>
 
@@ -53,7 +54,7 @@ const Footer = () => {
 
           {/* Course Categories */}
           <div>
-            <h3 className="text-lg  font-medium mb-4 text-black">
+            <h3 className="text-lg font-medium mb-4 text-black">
               COURSE CATEGORIES
             </h3>
             <ul className="space-y-2 text-base">
@@ -68,7 +69,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg  font-medium mb-4 text-black">
+            <h3 className="text-lg font-medium mb-4 text-black">
               QUICK LINKS
             </h3>
             <ul className="space-y-2 text-base">
