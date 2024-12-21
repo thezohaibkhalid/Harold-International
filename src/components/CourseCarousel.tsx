@@ -1,50 +1,88 @@
 import React from 'react';
-import Slider from 'react-slick';
-// import CourseCard from './CourseCard';
-// import { Course } from '../interfaces/Course';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
-interface CoursesCarouselProps {
-  courses: Course[];
-  title: string;
-}
-
-const CoursesCarousel: React.FC<CoursesCarouselProps> = ({ courses, title }) => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: courses.length >= 3 ? 3 : courses.length,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1024, // Tablet
-        settings: {
-          slidesToShow: courses.length >= 2 ? 2 : courses.length,
-        }
-      },
-      {
-        breakpoint: 600, // Mobile
-        settings: {
-          slidesToShow: 1,
-        }
-      }
-    ]
+const CourseCarousel = ({ courses }) => {
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+      slidesToSlide: 1, // optional, default to 1.
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+      slidesToSlide: 1,
+    },
   };
 
   return (
-    <div className="my-10">
-      <h2 className="text-3xl font-bold text-blue-600 mb-6 text-center">{title}</h2>
-      <Slider {...settings}>
-        {courses.map(course => (
-          <div key={course.id} className="px-2">
-            <CourseCard course={course} />
+    <Carousel
+      swipeable={true}
+      draggable={false}
+      showDots={true}
+      responsive={responsive}
+      ssr={true} // means to render carousel on the server-side.
+      infinite={true}
+      autoPlay={true}
+      autoPlaySpeed={3000}
+      keyBoardControl={true}
+      customTransition="all 0.5s"
+      transitionDuration={500}
+      containerClass="carousel-container"
+      removeArrowOnDeviceType={["tablet", "mobile"]}
+      deviceType={"desktop"}
+      dotListClass="custom-dot-list-style"
+      itemClass="carousel-item-padding-40-px"
+    >
+      {courses.map((course, index) => (
+        <div key={index} className="course-card">
+          <div className="course-image">
+            <img src={course.image} alt={course.title} />
           </div>
-        ))}
-      </Slider>
-    </div>
+          <div className="course-details">
+            <h3>{course.title}</h3>
+            <p>Course Overview:</p>
+            <ul>
+              <li>Programme Code: {course.code}</li>
+              <li>Duration of Study: {course.duration}</li>
+              <li>Mode of Study: {course.mode}</li>
+              <li>Campus: {course.campus}</li>
+            </ul>
+            <div className="course-actions">
+              <button className="btn btn-primary">Enroll Now</button>
+              <button className="btn btn-secondary">Learn More</button>
+            </div>
+          </div>
+        </div>
+      ))}
+    </Carousel>
   );
 };
 
-export default CoursesCarousel;
+export default CourseCarousel;
+
+// Example usage:
+// const courses = [
+//   {
+//     title: "UK Higher Diploma in International Hotel Management",
+//     code: "UH312318",
+//     duration: "2 Years",
+//     mode: "Full-Time / Part-Time",
+//     campus: "London",
+//     image: "path-to-image.jpg",
+//   },
+//   {
+//     title: "Business Strategy",
+//     code: "BS12345",
+//     duration: "6 Months",
+//     mode: "Part-Time",
+//     campus: "Manchester",
+//     image: "path-to-image.jpg",
+//   },
+// ];

@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const CourseCarousel = () => {
-  const [activeSlide, setActiveSlide] = useState(0); // Track the active slide
+const CourseByCatrgory = () => {
+  const [activeSlide, setActiveSlide] = useState(0);  
 
   const categories = [
     {
@@ -45,7 +45,7 @@ const CourseCarousel = () => {
     autoplaySpeed: 3000,
     slidesToShow: 4,
     slidesToScroll: 1,
-    beforeChange: (current, next) => setActiveSlide(next), // Update active slide index
+    beforeChange: (_, next) => setActiveSlide(next), // Update active slide index
     customPaging: (index) => {
       const dotColor = categories[(index + activeSlide) % categories.length].text_color; // Rotating colors
       return (
@@ -105,4 +105,4 @@ const CourseCarousel = () => {
   );
 };
 
-export default CourseCarousel;
+export default CourseByCatrgory;

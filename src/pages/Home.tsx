@@ -3,7 +3,7 @@ import NavNavbar from '../components/NavNavbar'
 import Navbar from '../components/Navbar'
 import HeroCarousel from '../components/HeroCarousel'
 import ExpertInstitution from '../components/ExpertInstitution'
-import CourseCarousel from '../components/CourseCarousel'
+import CourseByCatrgory from '../components/CourseByCategory'
 import StudentSayAboutUs from '../components/StudentSayAboutUs'
 import Footer from '../components/Footer'
 
@@ -17,7 +17,7 @@ function Home() {
       <HeroCarousel/>
       <HeroRegestration/>
       <ExpertInstitution/>
-      <CourseCarousel/>
+      <CourseByCatrgory/>
       <StudentSayAboutUs/>
       <Footer/>
     </div>
