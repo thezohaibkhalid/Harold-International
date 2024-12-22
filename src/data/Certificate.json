@@ -1,0 +1,122 @@
+  [
+  {
+    "courseName": "Certificate in International Hotel Management",
+    "courseOverview": {
+      "programmeCode": "CERT001",
+      "durationOfStudy": "6 Months",
+      "modeOfStudy": "Full-Time",
+      "campus": "London",
+      "image": "https://via.placeholder.com/150?text=Certificate+1"
+    }
+  },
+  {
+    "courseName": "Certificate in International Tourism Management",
+    "courseOverview": {
+      "programmeCode": "CERT002",
+      "durationOfStudy": "6 Months",
+      "modeOfStudy": "Part-Time",
+      "campus": "Manchester",
+      "image": "https://via.placeholder.com/150?text=Certificate+2"
+    }
+  },
+  {
+    "courseName": "Certificate in Tourism and International Hospitality Management",
+    "courseOverview": {
+      "programmeCode": "CERT003",
+      "durationOfStudy": "6 Months",
+      "modeOfStudy": "Full-Time",
+      "campus": "Birmingham",
+      "image": "https://via.placeholder.com/150?text=Certificate+3"
+    }
+  },
+  {
+    "courseName": "Certificate of International Tourism and Hotel Management",
+    "courseOverview": {
+      "programmeCode": "CERT004",
+      "durationOfStudy": "6 Months",
+      "modeOfStudy": "Full-Time",
+      "campus": "Leeds",
+      "image": "https://via.placeholder.com/150?text=Certificate+4"
+    }
+  },
+  {
+    "courseName": "Certificate in Hotel Management",
+    "courseOverview": {
+      "programmeCode": "CERT005",
+      "durationOfStudy": "6 Months",
+      "modeOfStudy": "Full-Time",
+      "campus": "Liverpool",
+      "image": "https://via.placeholder.com/150?text=Certificate+5"
+    }
+  },
+  {
+    "courseName": "Certificate in Tourism Management",
+    "courseOverview": {
+      "programmeCode": "CERT006",
+      "durationOfStudy": "6 Months",
+      "modeOfStudy": "Part-Time",
+      "campus": "Edinburgh",
+      "image": "https://via.placeholder.com/150?text=Certificate+6"
+    }
+  },
+  {
+    "courseName": "Certificate in International Housekeeping and Accommodation",
+    "courseOverview": {
+      "programmeCode": "CERT007",
+      "durationOfStudy": "6 Months",
+      "modeOfStudy": "Full-Time",
+      "campus": "Glasgow",
+      "image": "https://via.placeholder.com/150?text=Certificate+7"
+    }
+  },
+  {
+    "courseName": "Certificate in Tourism and Hospitality Management",
+    "courseOverview": {
+      "programmeCode": "CERT008",
+      "durationOfStudy": "6 Months",
+      "modeOfStudy": "Full-Time",
+      "campus": "Sheffield",
+      "image": "https://via.placeholder.com/150?text=Certificate+8"
+    }
+  },
+  {
+    "courseName": "Certificate in International Hospitality and Tourism Management",
+    "courseOverview": {
+      "programmeCode": "CERT009",
+      "durationOfStudy": "6 Months",
+      "modeOfStudy": "Part-Time",
+      "campus": "Newcastle",
+      "image": "https://via.placeholder.com/150?text=Certificate+9"
+    }
+  },
+  {
+    "courseName": "Certificate in Global Hotel Management",
+    "courseOverview": {
+      "programmeCode": "CERT010",
+      "durationOfStudy": "6 Months",
+      "modeOfStudy": "Full-Time",
+      "campus": "Bristol",
+      "image": "https://via.placeholder.com/150?text=Certificate+10"
+    }
+  },
+  {
+    "courseName": "Certificate in Hospitality & International Hotel Management",
+    "courseOverview": {
+      "programmeCode": "CERT011",
+      "durationOfStudy": "6 Months",
+      "modeOfStudy": "Full-Time",
+      "campus": "Cardiff",
+      "image": "https://via.placeholder.com/150?text=Certificate+11"
+    }
+  },
+  {
+    "courseName": "Certificate of Business (Hospitality and Tourism Management)",
+    "courseOverview": {
+      "programmeCode": "CERT012",
+      "durationOfStudy": "6 Months",
+      "modeOfStudy": "Part-Time",
+      "campus": "Nottingham",
+      "image": "https://via.placeholder.com/150?text=Certificate+12"
+    }
+  }
+]

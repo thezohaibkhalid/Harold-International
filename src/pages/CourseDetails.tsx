@@ -1,9 +1,9 @@
 import React from 'react'
-import CourseDetail from '../components/CourseDetails'
+import CourseDetailsComp from '../components/CourseDetailsComp'
 function CourseDetails() {
   return (
     <div>
-        <CourseDetail/>
+        <CourseDetailsComp/>
     </div>
   )
 }

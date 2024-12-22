@@ -2,14 +2,16 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { useNavigate } from 'react-router-dom';
-import {CourseData} from '../Interface/CourseType'
+import {CourseInterface} from '../Interface/CourseType'
 
 interface CourseDetailProps {
-  data: CourseData;  
+  data: CourseInterface;  
+  heading: string;
+  subHeading: string;
 }
-const CourseCarousel:React.FC<CourseDetailProps> =({data}) => {
+const CourseCarousel:React.FC<CourseDetailProps> =({data, heading, subHeading}) => {
   const navigate = useNavigate();
-  const diplomaCourses = data.slice(0, 6);
+  const Course = data.slice(0, 6);
 
   const settings = {
     dots: true,
@@ -45,13 +47,13 @@ const CourseCarousel:React.FC<CourseDetailProps> =({data}) => {
   };
 
   return (
-    <div className="text-center my-10">
-      <h2 className="text-3xl font-bold mb-4">Explore our Popular Courses</h2>
+    <div className="text-center my-10 w-[90%] mx-auto">
+      <h2 className="text-3xl font-bold mb-4">{heading}</h2>
       <p className="text-gray-600 text-lg mb-8">
-        Discover the best courses tailored to help you excel in your learning journey!
+        {subHeading}
       </p>
       <Slider {...settings}>
-        {diplomaCourses.map((course, index) => (
+        {Course.map((course, index) => (
           <div key={index} className="p-4 cursor-pointer" onClick={() => handleCourseClick(course)}>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <img src={course.courseOverview.image} alt={course.courseName} className="w-full h-40 object-cover" />

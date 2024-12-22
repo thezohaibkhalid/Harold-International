@@ -1,5 +1,5 @@
 import React from 'react';
-import coursesData from '../assets/Courses.json';
+import coursesData from '../data/Diploma.json';
 import { useNavigate } from 'react-router-dom';
 
 const CoursesPage = () => {

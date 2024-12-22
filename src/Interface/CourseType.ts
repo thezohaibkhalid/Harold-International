@@ -11,7 +11,7 @@ export interface CourseOverview {
     courseOverview: CourseOverview;
   }
   
-  export interface CourseData {
+  export interface CourseInterface {
     Course: Course[];
   }
   
