@@ -1,0 +1,124 @@
+{
+    "UK Higher Diploma": [
+        {
+          "courseName": "UK Higher Diploma in International Hotel Management",
+          "courseOverview": {
+            "programmeCode": "UKHD001",
+            "durationOfStudy": "2 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "London",
+            "image": "https://via.placeholder.com/150?text=UKHD+1"
+          }
+        },
+        {
+          "courseName": "UK Higher Diploma in International Tourism Management",
+          "courseOverview": {
+            "programmeCode": "UKHD002",
+            "durationOfStudy": "2 Years",
+            "modeOfStudy": "Part-Time",
+            "campus": "Manchester",
+            "image": "https://via.placeholder.com/150?text=UKHD+2"
+          }
+        },
+        {
+          "courseName": "UK Higher Diploma in Tourism and International Hospitality Management",
+          "courseOverview": {
+            "programmeCode": "UKHD003",
+            "durationOfStudy": "2 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Birmingham",
+            "image": "https://via.placeholder.com/150?text=UKHD+3"
+          }
+        },
+        {
+          "courseName": "UK Higher Diploma of International Tourism and Hotel Management",
+          "courseOverview": {
+            "programmeCode": "UKHD004",
+            "durationOfStudy": "2 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Leeds",
+            "image": "https://via.placeholder.com/150?text=UKHD+4"
+          }
+        },
+        {
+          "courseName": "UK Higher Diploma in Hotel Management",
+          "courseOverview": {
+            "programmeCode": "UKHD005",
+            "durationOfStudy": "2 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Liverpool",
+            "image": "https://via.placeholder.com/150?text=UKHD+5"
+          }
+        },
+        {
+          "courseName": "UK Higher Diploma in Tourism Management",
+          "courseOverview": {
+            "programmeCode": "UKHD006",
+            "durationOfStudy": "2 Years",
+            "modeOfStudy": "Part-Time",
+            "campus": "Edinburgh",
+            "image": "https://via.placeholder.com/150?text=UKHD+6"
+          }
+        },
+        {
+          "courseName": "UK Higher Diploma in International Housekeeping and Accommodation",
+          "courseOverview": {
+            "programmeCode": "UKHD007",
+            "durationOfStudy": "2 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Glasgow",
+            "image": "https://via.placeholder.com/150?text=UKHD+7"
+          }
+        },
+        {
+          "courseName": "UK Higher Diploma in Tourism and Hospitality Management",
+          "courseOverview": {
+            "programmeCode": "UKHD008",
+            "durationOfStudy": "2 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Sheffield",
+            "image": "https://via.placeholder.com/150?text=UKHD+8"
+          }
+        },
+        {
+          "courseName": "UK Higher Diploma in International Hospitality and Tourism Management",
+          "courseOverview": {
+            "programmeCode": "UKHD009",
+            "durationOfStudy": "2 Years",
+            "modeOfStudy": "Part-Time",
+            "campus": "Newcastle",
+            "image": "https://via.placeholder.com/150?text=UKHD+9"
+          }
+        },
+        {
+          "courseName": "UK Higher Diploma in Global Hotel Management",
+          "courseOverview": {
+            "programmeCode": "UKHD010",
+            "durationOfStudy": "2 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Bristol",
+            "image": "https://via.placeholder.com/150?text=UKHD+10"
+          }
+        },
+        {
+          "courseName": "UK Higher Diploma in Hospitality & International Hotel Management",
+          "courseOverview": {
+            "programmeCode": "UKHD011",
+            "durationOfStudy": "2 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Cardiff",
+            "image": "https://via.placeholder.com/150?text=UKHD+11"
+          }
+        },
+        {
+          "courseName": "UK Higher Diploma of Business (Hospitality and Tourism Management)",
+          "courseOverview": {
+            "programmeCode": "UKHD012",
+            "durationOfStudy": "2 Years",
+            "modeOfStudy": "Part-Time",
+            "campus": "Nottingham",
+            "image": "https://via.placeholder.com/150?text=UKHD+12"
+          }
+        }
+      ]
+}

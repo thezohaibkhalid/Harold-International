@@ -1,0 +1,125 @@
+{
+  "Master": [
+    {
+      "courseName": "Master in International Hotel Management",
+      "courseOverview": {
+        "programmeCode": "MSTR001",
+        "durationOfStudy": "2 Years",
+        "modeOfStudy": "Full-Time",
+        "campus": "London",
+        "image": "https://via.placeholder.com/150?text=Master+1"
+      }
+    },
+    {
+      "courseName": "Master in International Tourism Management",
+      "courseOverview": {
+        "programmeCode": "MSTR002",
+        "durationOfStudy": "2 Years",
+        "modeOfStudy": "Part-Time",
+        "campus": "Manchester",
+        "image": "https://via.placeholder.com/150?text=Master+2"
+      }
+    },
+    {
+      "courseName": "Master in Tourism and International Hospitality Management",
+      "courseOverview": {
+        "programmeCode": "MSTR003",
+        "durationOfStudy": "2 Years",
+        "modeOfStudy": "Full-Time",
+        "campus": "Birmingham",
+        "image": "https://via.placeholder.com/150?text=Master+3"
+      }
+    },
+    {
+      "courseName": "Master of International Tourism and Hotel Management",
+      "courseOverview": {
+        "programmeCode": "MSTR004",
+        "durationOfStudy": "2 Years",
+        "modeOfStudy": "Full-Time",
+        "campus": "Leeds",
+        "image": "https://via.placeholder.com/150?text=Master+4"
+      }
+    },
+    {
+      "courseName": "Master in Hotel Management",
+      "courseOverview": {
+        "programmeCode": "MSTR005",
+        "durationOfStudy": "2 Years",
+        "modeOfStudy": "Full-Time",
+        "campus": "Liverpool",
+        "image": "https://via.placeholder.com/150?text=Master+5"
+      }
+    },
+    {
+      "courseName": "Master in Tourism Management",
+      "courseOverview": {
+        "programmeCode": "MSTR006",
+        "durationOfStudy": "2 Years",
+        "modeOfStudy": "Part-Time",
+        "campus": "Edinburgh",
+        "image": "https://via.placeholder.com/150?text=Master+6"
+      }
+    },
+    {
+      "courseName": "Master in International Housekeeping and Accommodation",
+      "courseOverview": {
+        "programmeCode": "MSTR007",
+        "durationOfStudy": "2 Years",
+        "modeOfStudy": "Full-Time",
+        "campus": "Glasgow",
+        "image": "https://via.placeholder.com/150?text=Master+7"
+      }
+    },
+    {
+      "courseName": "Master in Tourism and Hospitality Management",
+      "courseOverview": {
+        "programmeCode": "MSTR008",
+        "durationOfStudy": "2 Years",
+        "modeOfStudy": "Full-Time",
+        "campus": "Sheffield",
+        "image": "https://via.placeholder.com/150?text=Master+8"
+      }
+    },
+    {
+      "courseName": "Master in International Hospitality and Tourism Management",
+      "courseOverview": {
+        "programmeCode": "MSTR009",
+        "durationOfStudy": "2 Years",
+        "modeOfStudy": "Part-Time",
+        "campus": "Newcastle",
+        "image": "https://via.placeholder.com/150?text=Master+9"
+      }
+    },
+    {
+      "courseName": "Master in Global Hotel Management",
+      "courseOverview": {
+        "programmeCode": "MSTR010",
+        "durationOfStudy": "2 Years",
+        "modeOfStudy": "Full-Time",
+        "campus": "Bristol",
+        "image": "https://via.placeholder.com/150?text=Master+10"
+      }
+    },
+    {
+      "courseName": "Master in Hospitality & International Hotel Management",
+      "courseOverview": {
+        "programmeCode": "MSTR011",
+        "durationOfStudy": "2 Years",
+        "modeOfStudy": "Full-Time",
+        "campus": "Cardiff",
+        "image": "https://via.placeholder.com/150?text=Master+11"
+      }
+    },
+    {
+      "courseName": "Master of Business (Hospitality and Tourism Management)",
+      "courseOverview": {
+        "programmeCode": "MSTR012",
+        "durationOfStudy": "2 Years",
+        "modeOfStudy": "Part-Time",
+        "campus": "Nottingham",
+        "image": "https://via.placeholder.com/150?text=Master+12"
+      }
+    }
+  ]
+
+}

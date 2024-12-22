@@ -1,0 +1,122 @@
+ [
+        {
+          "courseName": "Diploma in International Hotel Management",
+          "courseOverview": {
+            "programmeCode": "DIP001",
+            "durationOfStudy": "1 Year",
+            "modeOfStudy": "Full-Time",
+            "campus": "Manchester",
+            "image": "https://picsum.photos/200/300?random=1"
+          }
+        },
+        {
+          "courseName": "Diploma in International Tourism Management",
+          "courseOverview": {
+            "programmeCode": "DIP002",
+            "durationOfStudy": "1 Year",
+            "modeOfStudy": "Part-Time",
+            "campus": "London",
+            "image": "https://picsum.photos/200/300?random=2"
+          }
+        },
+        {
+          "courseName": "Diploma in Tourism and International Hospitality Management",
+          "courseOverview": {
+            "programmeCode": "DIP003",
+            "durationOfStudy": "1 Year",
+            "modeOfStudy": "Full-Time",
+            "campus": "Birmingham",
+            "image": "https://picsum.photos/200/300?random=3"
+          }
+        },
+        {
+          "courseName": "Diploma of International Tourism and Hotel Management",
+          "courseOverview": {
+            "programmeCode": "DIP004",
+            "durationOfStudy": "1 Year",
+            "modeOfStudy": "Full-Time",
+            "campus": "Leeds",
+            "image": "https://picsum.photos/200/300?random=4"
+          }
+        },
+        {
+          "courseName": "Diploma in Hotel Management",
+          "courseOverview": {
+            "programmeCode": "DIP005",
+            "durationOfStudy": "1 Year",
+            "modeOfStudy": "Full-Time",
+            "campus": "Liverpool",
+            "image": "https://picsum.photos/200/300?random=5"
+          }
+        },
+        {
+          "courseName": "Diploma in Tourism Management",
+          "courseOverview": {
+            "programmeCode": "DIP006",
+            "durationOfStudy": "1 Year",
+            "modeOfStudy": "Part-Time",
+            "campus": "Edinburgh",
+            "image": "https://picsum.photos/200/300?random=6"
+          }
+        },
+        {
+          "courseName": "Diploma in International Housekeeping and Accommodation",
+          "courseOverview": {
+            "programmeCode": "DIP007",
+            "durationOfStudy": "1 Year",
+            "modeOfStudy": "Full-Time",
+            "campus": "Glasgow",
+            "image": "https://picsum.photos/200/300?random=7"
+          }
+        },
+        {
+          "courseName": "Diploma in Tourism and Hospitality Management",
+          "courseOverview": {
+            "programmeCode": "DIP008",
+            "durationOfStudy": "1 Year",
+            "modeOfStudy": "Full-Time",
+            "campus": "Sheffield",
+            "image": "https://picsum.photos/200/300?random=8"
+          }
+        },
+        {
+          "courseName": "Diploma in International Hospitality and Tourism Management",
+          "courseOverview": {
+            "programmeCode": "DIP009",
+            "durationOfStudy": "1 Year",
+            "modeOfStudy": "Part-Time",
+            "campus": "Newcastle",
+            "image": "https://picsum.photos/200/300?random=9"
+          }
+        },
+        {
+          "courseName": "Diploma in Global Hotel Management",
+          "courseOverview": {
+            "programmeCode": "DIP010",
+            "durationOfStudy": "1 Year",
+            "modeOfStudy": "Full-Time",
+            "campus": "Bristol",
+            "image": "https://picsum.photos/200/300?random=10"
+          }
+        },
+        {
+          "courseName": "Diploma in Hospitality & International Hotel Management",
+          "courseOverview": {
+            "programmeCode": "DIP011",
+            "durationOfStudy": "1 Year",
+            "modeOfStudy": "Full-Time",
+            "campus": "Cardiff",
+            "image": "https://picsum.photos/200/300?random=11"
+          }
+        },
+        {
+          "courseName": "Diploma of Business (Hospitality and Tourism Management)",
+          "courseOverview": {
+            "programmeCode": "DIP012",
+            "durationOfStudy": "1 Year",
+            "modeOfStudy": "Part-Time",
+            "campus": "Nottingham",
+            "image": "https://picsum.photos/200/300?random=12"
+          }
+        }
+      ]

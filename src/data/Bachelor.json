@@ -1,0 +1,124 @@
+{
+    "Bachelor": [
+        {
+          "courseName": "Bachelor in International Hotel Management",
+          "courseOverview": {
+            "programmeCode": "BACH001",
+            "durationOfStudy": "3 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "London",
+            "image": "https://via.placeholder.com/150?text=Bachelor+1"
+          }
+        },
+        {
+          "courseName": "Bachelor in International Tourism Management",
+          "courseOverview": {
+            "programmeCode": "BACH002",
+            "durationOfStudy": "3 Years",
+            "modeOfStudy": "Part-Time",
+            "campus": "Manchester",
+            "image": "https://via.placeholder.com/150?text=Bachelor+2"
+          }
+        },
+        {
+          "courseName": "Bachelor in Tourism and International Hospitality Management",
+          "courseOverview": {
+            "programmeCode": "BACH003",
+            "durationOfStudy": "3 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Birmingham",
+            "image": "https://via.placeholder.com/150?text=Bachelor+3"
+          }
+        },
+        {
+          "courseName": "Bachelor of International Tourism and Hotel Management",
+          "courseOverview": {
+            "programmeCode": "BACH004",
+            "durationOfStudy": "3 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Leeds",
+            "image": "https://via.placeholder.com/150?text=Bachelor+4"
+          }
+        },
+        {
+          "courseName": "Bachelor in Hotel Management",
+          "courseOverview": {
+            "programmeCode": "BACH005",
+            "durationOfStudy": "3 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Liverpool",
+            "image": "https://via.placeholder.com/150?text=Bachelor+5"
+          }
+        },
+        {
+          "courseName": "Bachelor in Tourism Management",
+          "courseOverview": {
+            "programmeCode": "BACH006",
+            "durationOfStudy": "3 Years",
+            "modeOfStudy": "Part-Time",
+            "campus": "Edinburgh",
+            "image": "https://via.placeholder.com/150?text=Bachelor+6"
+          }
+        },
+        {
+          "courseName": "Bachelor in International Housekeeping and Accommodation",
+          "courseOverview": {
+            "programmeCode": "BACH007",
+            "durationOfStudy": "3 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Glasgow",
+            "image": "https://via.placeholder.com/150?text=Bachelor+7"
+          }
+        },
+        {
+          "courseName": "Bachelor in Tourism and Hospitality Management",
+          "courseOverview": {
+            "programmeCode": "BACH008",
+            "durationOfStudy": "3 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Sheffield",
+            "image": "https://via.placeholder.com/150?text=Bachelor+8"
+          }
+        },
+        {
+          "courseName": "Bachelor in International Hospitality and Tourism Management",
+          "courseOverview": {
+            "programmeCode": "BACH009",
+            "durationOfStudy": "3 Years",
+            "modeOfStudy": "Part-Time",
+            "campus": "Newcastle",
+            "image": "https://via.placeholder.com/150?text=Bachelor+9"
+          }
+        },
+        {
+          "courseName": "Bachelor in Global Hotel Management",
+          "courseOverview": {
+            "programmeCode": "BACH010",
+            "durationOfStudy": "3 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Bristol",
+            "image": "https://via.placeholder.com/150?text=Bachelor+10"
+          }
+        },
+        {
+          "courseName": "Bachelor in Hospitality & International Hotel Management",
+          "courseOverview": {
+            "programmeCode": "BACH011",
+            "durationOfStudy": "3 Years",
+            "modeOfStudy": "Full-Time",
+            "campus": "Cardiff",
+            "image": "https://via.placeholder.com/150?text=Bachelor+11"
+          }
+        },
+        {
+          "courseName": "Bachelor of Business (Hospitality and Tourism Management)",
+          "courseOverview": {
+            "programmeCode": "BACH012",
+            "durationOfStudy": "3 Years",
+            "modeOfStudy": "Part-Time",
+            "campus": "Nottingham",
+            "image": "https://via.placeholder.com/150?text=Bachelor+12"
+          }
+        }
+      ]
+}
