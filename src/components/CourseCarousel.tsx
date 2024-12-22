@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import {CourseInterface} from '../Interface/CourseType'
 
 interface CourseDetailProps {
-  data: CourseInterface;  
+  data: CourseInterface[];  
   heading: string;
   subHeading: string;
 }
@@ -42,7 +42,7 @@ const CourseCarousel:React.FC<CourseDetailProps> =({data, heading, subHeading}) 
     ]
   };
 
-  const handleCourseClick = (course) => {
+  const handleCourseClick = (course:CourseInterface) => {
     navigate(`/course/${course.courseOverview.programmeCode}`);
   };
 

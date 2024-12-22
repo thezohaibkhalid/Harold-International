@@ -24,32 +24,32 @@ function Home() {
       <ExpertInstitution />
       <CourseByCatrgory />
       <CourseCarousel
-        data={Diploma}
+        data={{ Course: Diploma }}
         heading="Diploma"
         subHeading="HICL University is where you can find your why"
       />
       <CourseCarousel
-        data={AdvanceDiploma}
+        data={{ Course: AdvanceDiploma }}
         heading="Advance Diploma"
         subHeading="HICL University is where you can find your why"
       />
       <CourseCarousel
-        data={Bachelor}
+        data={{ Course: Bachelor }}
         heading="Bachelor"
         subHeading="HICL University is where you can find your why"
       />
       <CourseCarousel
-        data={Master}
+        data={{ Course: Master }}
         heading="Master"
         subHeading="HICL University is where you can find your why"
       />
       <CourseCarousel
-        data={UkHigherDiploma}
+        data={{ Course: UkHigherDiploma }}
         heading="Uk Higher Diploma"
         subHeading="HICL University is where you can find your why"
       />
       <CourseCarousel
-        data={Certificate}
+        data={{ Course: Certificate }}
         heading="Certificate"
         subHeading="HICL University is where you can find your why"
       />

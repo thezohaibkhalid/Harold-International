@@ -1,12 +1,13 @@
 import React from 'react';
 import coursesData from '../data/Diploma.json';
 import { useNavigate } from 'react-router-dom';
+import { CourseInterface } from '../Interface/CourseType';
 
 const CoursesPage = () => {
   const navigate = useNavigate();
   const diplomaCourses = coursesData.Diploma;
 
-  const handleCourseClick = (course) => {
+  const handleCourseClick = (course:CourseInterface) => {
     navigate(`/course/${course.courseOverview.programmeCode}`);
   };
 
@@ -14,7 +15,7 @@ const CoursesPage = () => {
     <div className="text-center my-10">
       <h2 className="text-3xl font-bold mb-4">All Diploma Courses</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {diplomaCourses.map((course, index) => (
+        {diplomaCourses.map((course:CourseInterface, index:number) => (
           <div key={index} className="p-4 cursor-pointer" onClick={() => handleCourseClick(course)}>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <img src={course.courseOverview.image} alt={course.courseName} className="w-full h-40 object-cover" />
