@@ -45,8 +45,8 @@ const CourseByCatrgory = () => {
     autoplaySpeed: 3000,
     slidesToShow: 4,
     slidesToScroll: 1,
-    beforeChange: (_, next) => setActiveSlide(next), // Update active slide index
-    customPaging: (index) => {
+    // Update active slide index
+    customPaging: (index: number): JSX.Element => {
       const dotColor = categories[(index + activeSlide) % categories.length].text_color; // Rotating colors
       return (
         <div
@@ -58,7 +58,7 @@ const CourseByCatrgory = () => {
         ></div>
       );
     },
-    appendDots: (dots) => (
+    appendDots: (dots: React.ReactNode): JSX.Element => (
       <ul className="flex justify-center items-center gap-2">{dots}</ul>
     ),
     responsive: [
@@ -69,7 +69,7 @@ const CourseByCatrgory = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-10">
+    <div className="container mx-auto px-4 py-10 cursor-pointer">
       <h2 className="text-center lg:text-4xl text-3xl font-bold mb-6">
         Browse Courses by Categories
       </h2>

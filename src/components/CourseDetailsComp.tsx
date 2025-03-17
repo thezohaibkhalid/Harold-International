@@ -1,6 +1,7 @@
 import CoursesData from "../assets/Courses.json";
 import { useParams } from "react-router-dom";
 import { CourseInterface } from "../Interface/CourseType";
+
 const CourseDetailsComp: React.FC = () => {
   const { programmeCode } = useParams<{ programmeCode: string }>();
   console.log(programmeCode);

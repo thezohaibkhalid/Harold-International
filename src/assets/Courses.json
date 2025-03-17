@@ -1,734 +1,735 @@
 {
-  "Diploma": [
-    {
-      "courseName": "Diploma in International Hotel Management",
-      "courseOverview": {
-        "programmeCode": "DIP001",
-        "durationOfStudy": "1 Year",
-        "modeOfStudy": "Full-Time",
-        "campus": "Manchester",
-        "image": "https://picsum.photos/200/300?random=1"
-      }
-    },
-    {
-      "courseName": "Diploma in International Tourism Management",
-      "courseOverview": {
-        "programmeCode": "DIP002",
-        "durationOfStudy": "1 Year",
-        "modeOfStudy": "Part-Time",
-        "campus": "London",
-        "image": "https://picsum.photos/200/300?random=2"
-      }
-    },
-    {
-      "courseName": "Diploma in Tourism and International Hospitality Management",
-      "courseOverview": {
-        "programmeCode": "DIP003",
-        "durationOfStudy": "1 Year",
-        "modeOfStudy": "Full-Time",
-        "campus": "Birmingham",
-        "image": "https://picsum.photos/200/300?random=3"
-      }
-    },
-    {
-      "courseName": "Diploma of International Tourism and Hotel Management",
-      "courseOverview": {
-        "programmeCode": "DIP004",
-        "durationOfStudy": "1 Year",
-        "modeOfStudy": "Full-Time",
-        "campus": "Leeds",
-        "image": "https://picsum.photos/200/300?random=4"
-      }
-    },
-    {
-      "courseName": "Diploma in Hotel Management",
-      "courseOverview": {
-        "programmeCode": "DIP005",
-        "durationOfStudy": "1 Year",
-        "modeOfStudy": "Full-Time",
-        "campus": "Liverpool",
-        "image": "https://picsum.photos/200/300?random=5"
-      }
-    },
-    {
-      "courseName": "Diploma in Tourism Management",
-      "courseOverview": {
-        "programmeCode": "DIP006",
-        "durationOfStudy": "1 Year",
-        "modeOfStudy": "Part-Time",
-        "campus": "Edinburgh",
-        "image": "https://picsum.photos/200/300?random=6"
-      }
-    },
-    {
-      "courseName": "Diploma in International Housekeeping and Accommodation",
-      "courseOverview": {
-        "programmeCode": "DIP007",
-        "durationOfStudy": "1 Year",
-        "modeOfStudy": "Full-Time",
-        "campus": "Glasgow",
-        "image": "https://picsum.photos/200/300?random=7"
-      }
-    },
-    {
-      "courseName": "Diploma in Tourism and Hospitality Management",
-      "courseOverview": {
-        "programmeCode": "DIP008",
-        "durationOfStudy": "1 Year",
-        "modeOfStudy": "Full-Time",
-        "campus": "Sheffield",
-        "image": "https://picsum.photos/200/300?random=8"
-      }
-    },
-    {
-      "courseName": "Diploma in International Hospitality and Tourism Management",
-      "courseOverview": {
-        "programmeCode": "DIP009",
-        "durationOfStudy": "1 Year",
-        "modeOfStudy": "Part-Time",
-        "campus": "Newcastle",
-        "image": "https://picsum.photos/200/300?random=9"
-      }
-    },
-    {
-      "courseName": "Diploma in Global Hotel Management",
-      "courseOverview": {
-        "programmeCode": "DIP010",
-        "durationOfStudy": "1 Year",
-        "modeOfStudy": "Full-Time",
-        "campus": "Bristol",
-        "image": "https://picsum.photos/200/300?random=10"
-      }
-    },
-    {
-      "courseName": "Diploma in Hospitality & International Hotel Management",
-      "courseOverview": {
-        "programmeCode": "DIP011",
-        "durationOfStudy": "1 Year",
-        "modeOfStudy": "Full-Time",
-        "campus": "Cardiff",
-        "image": "https://picsum.photos/200/300?random=11"
-      }
-    },
-    {
-      "courseName": "Diploma of Business (Hospitality and Tourism Management)",
-      "courseOverview": {
-        "programmeCode": "DIP012",
-        "durationOfStudy": "1 Year",
-        "modeOfStudy": "Part-Time",
-        "campus": "Nottingham",
-        "image": "https://picsum.photos/200/300?random=12"
-      }
-    }
-  ],
-  "UK Higher Diploma": [
-    {
-      "courseName": "UK Higher Diploma in International Hotel Management",
-      "courseOverview": {
-        "programmeCode": "UKHD001",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "London",
-        "image": "https://via.placeholder.com/150?text=UKHD+1"
-      }
-    },
-    {
-      "courseName": "UK Higher Diploma in International Tourism Management",
-      "courseOverview": {
-        "programmeCode": "UKHD002",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Manchester",
-        "image": "https://via.placeholder.com/150?text=UKHD+2"
-      }
-    },
-    {
-      "courseName": "UK Higher Diploma in Tourism and International Hospitality Management",
-      "courseOverview": {
-        "programmeCode": "UKHD003",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Birmingham",
-        "image": "https://via.placeholder.com/150?text=UKHD+3"
-      }
-    },
-    {
-      "courseName": "UK Higher Diploma of International Tourism and Hotel Management",
-      "courseOverview": {
-        "programmeCode": "UKHD004",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Leeds",
-        "image": "https://via.placeholder.com/150?text=UKHD+4"
-      }
-    },
-    {
-      "courseName": "UK Higher Diploma in Hotel Management",
-      "courseOverview": {
-        "programmeCode": "UKHD005",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Liverpool",
-        "image": "https://via.placeholder.com/150?text=UKHD+5"
-      }
-    },
-    {
-      "courseName": "UK Higher Diploma in Tourism Management",
-      "courseOverview": {
-        "programmeCode": "UKHD006",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Edinburgh",
-        "image": "https://via.placeholder.com/150?text=UKHD+6"
-      }
-    },
-    {
-      "courseName": "UK Higher Diploma in International Housekeeping and Accommodation",
-      "courseOverview": {
-        "programmeCode": "UKHD007",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Glasgow",
-        "image": "https://via.placeholder.com/150?text=UKHD+7"
-      }
-    },
-    {
-      "courseName": "UK Higher Diploma in Tourism and Hospitality Management",
-      "courseOverview": {
-        "programmeCode": "UKHD008",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Sheffield",
-        "image": "https://via.placeholder.com/150?text=UKHD+8"
-      }
-    },
-    {
-      "courseName": "UK Higher Diploma in International Hospitality and Tourism Management",
-      "courseOverview": {
-        "programmeCode": "UKHD009",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Newcastle",
-        "image": "https://via.placeholder.com/150?text=UKHD+9"
-      }
-    },
-    {
-      "courseName": "UK Higher Diploma in Global Hotel Management",
-      "courseOverview": {
-        "programmeCode": "UKHD010",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Bristol",
-        "image": "https://via.placeholder.com/150?text=UKHD+10"
-      }
-    },
-    {
-      "courseName": "UK Higher Diploma in Hospitality & International Hotel Management",
-      "courseOverview": {
-        "programmeCode": "UKHD011",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Cardiff",
-        "image": "https://via.placeholder.com/150?text=UKHD+11"
-      }
-    },
-    {
-      "courseName": "UK Higher Diploma of Business (Hospitality and Tourism Management)",
-      "courseOverview": {
-        "programmeCode": "UKHD012",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Nottingham",
-        "image": "https://via.placeholder.com/150?text=UKHD+12"
-      }
-    }
-  ],
-  "Advanced Diploma": [
-    {
-      "courseName": "Advanced Diploma in International Hotel Management",
-      "courseOverview": {
-        "programmeCode": "ADV_DIP001",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "London",
-        "image": "https://via.placeholder.com/150?text=AdvDiploma+1"
-      }
-    },
-    {
-      "courseName": "Advanced Diploma in International Tourism Management",
-      "courseOverview": {
-        "programmeCode": "ADV_DIP002",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Manchester",
-        "image": "https://via.placeholder.com/150?text=AdvDiploma+2"
-      }
-    },
-    {
-      "courseName": "Advanced Diploma in Tourism and International Hospitality Management",
-      "courseOverview": {
-        "programmeCode": "ADV_DIP003",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Birmingham",
-        "image": "https://via.placeholder.com/150?text=AdvDiploma+3"
-      }
-    },
-    {
-      "courseName": "Advanced Diploma of International Tourism and Hotel Management",
-      "courseOverview": {
-        "programmeCode": "ADV_DIP004",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Leeds",
-        "image": "https://via.placeholder.com/150?text=AdvDiploma+4"
-      }
-    },
-    {
-      "courseName": "Advanced Diploma in Hotel Management",
-      "courseOverview": {
-        "programmeCode": "ADV_DIP005",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Liverpool",
-        "image": "https://via.placeholder.com/150?text=AdvDiploma+5"
-      }
-    },
-    {
-      "courseName": "Advanced Diploma in Tourism Management",
-      "courseOverview": {
-        "programmeCode": "ADV_DIP006",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Edinburgh",
-        "image": "https://via.placeholder.com/150?text=AdvDiploma+6"
-      }
-    },
-    {
-      "courseName": "Advanced Diploma in International Housekeeping and Accommodation",
-      "courseOverview": {
-        "programmeCode": "ADV_DIP007",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Glasgow",
-        "image": "https://via.placeholder.com/150?text=AdvDiploma+7"
-      }
-    },
-    {
-      "courseName": "Advanced Diploma in Tourism and Hospitality Management",
-      "courseOverview": {
-        "programmeCode": "ADV_DIP008",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Sheffield",
-        "image": "https://via.placeholder.com/150?text=AdvDiploma+8"
-      }
-    },
-    {
-      "courseName": "Advanced Diploma in International Hospitality and Tourism Management",
-      "courseOverview": {
-        "programmeCode": "ADV_DIP009",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Newcastle",
-        "image": "https://via.placeholder.com/150?text=AdvDiploma+9"
-      }
-    },
-    {
-      "courseName": "Advanced Diploma in Global Hotel Management",
-      "courseOverview": {
-        "programmeCode": "ADV_DIP010",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Bristol",
-        "image": "https://via.placeholder.com/150?text=AdvDiploma+10"
-      }
-    },
-    {
-      "courseName": "Advanced Diploma in Hospitality & International Hotel Management",
-      "courseOverview": {
-        "programmeCode": "ADV_DIP011",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Cardiff",
-        "image": "https://via.placeholder.com/150?text=AdvDiploma+11"
-      }
-    },
-    {
-      "courseName": "Advanced Diploma of Business (Hospitality and Tourism Management)",
-      "courseOverview": {
-        "programmeCode": "ADV_DIP012",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Nottingham",
-        "image": "https://via.placeholder.com/150?text=AdvDiploma+12"
-      }
-    }
-  ],
-  "Certificate": [
-    {
-      "courseName": "Certificate in International Hotel Management",
-      "courseOverview": {
-        "programmeCode": "CERT001",
-        "durationOfStudy": "6 Months",
-        "modeOfStudy": "Full-Time",
-        "campus": "London",
-        "image": "https://via.placeholder.com/150?text=Certificate+1"
-      }
-    },
-    {
-      "courseName": "Certificate in International Tourism Management",
-      "courseOverview": {
-        "programmeCode": "CERT002",
-        "durationOfStudy": "6 Months",
-        "modeOfStudy": "Part-Time",
-        "campus": "Manchester",
-        "image": "https://via.placeholder.com/150?text=Certificate+2"
-      }
-    },
-    {
-      "courseName": "Certificate in Tourism and International Hospitality Management",
-      "courseOverview": {
-        "programmeCode": "CERT003",
-        "durationOfStudy": "6 Months",
-        "modeOfStudy": "Full-Time",
-        "campus": "Birmingham",
-        "image": "https://via.placeholder.com/150?text=Certificate+3"
-      }
-    },
-    {
-      "courseName": "Certificate of International Tourism and Hotel Management",
-      "courseOverview": {
-        "programmeCode": "CERT004",
-        "durationOfStudy": "6 Months",
-        "modeOfStudy": "Full-Time",
-        "campus": "Leeds",
-        "image": "https://via.placeholder.com/150?text=Certificate+4"
-      }
-    },
-    {
-      "courseName": "Certificate in Hotel Management",
-      "courseOverview": {
-        "programmeCode": "CERT005",
-        "durationOfStudy": "6 Months",
-        "modeOfStudy": "Full-Time",
-        "campus": "Liverpool",
-        "image": "https://via.placeholder.com/150?text=Certificate+5"
-      }
-    },
-    {
-      "courseName": "Certificate in Tourism Management",
-      "courseOverview": {
-        "programmeCode": "CERT006",
-        "durationOfStudy": "6 Months",
-        "modeOfStudy": "Part-Time",
-        "campus": "Edinburgh",
-        "image": "https://via.placeholder.com/150?text=Certificate+6"
-      }
-    },
-    {
-      "courseName": "Certificate in International Housekeeping and Accommodation",
-      "courseOverview": {
-        "programmeCode": "CERT007",
-        "durationOfStudy": "6 Months",
-        "modeOfStudy": "Full-Time",
-        "campus": "Glasgow",
-        "image": "https://via.placeholder.com/150?text=Certificate+7"
-      }
-    },
-    {
-      "courseName": "Certificate in Tourism and Hospitality Management",
-      "courseOverview": {
-        "programmeCode": "CERT008",
-        "durationOfStudy": "6 Months",
-        "modeOfStudy": "Full-Time",
-        "campus": "Sheffield",
-        "image": "https://via.placeholder.com/150?text=Certificate+8"
-      }
-    },
-    {
-      "courseName": "Certificate in International Hospitality and Tourism Management",
-      "courseOverview": {
-        "programmeCode": "CERT009",
-        "durationOfStudy": "6 Months",
-        "modeOfStudy": "Part-Time",
-        "campus": "Newcastle",
-        "image": "https://via.placeholder.com/150?text=Certificate+9"
-      }
-    },
-    {
-      "courseName": "Certificate in Global Hotel Management",
-      "courseOverview": {
-        "programmeCode": "CERT010",
-        "durationOfStudy": "6 Months",
-        "modeOfStudy": "Full-Time",
-        "campus": "Bristol",
-        "image": "https://via.placeholder.com/150?text=Certificate+10"
-      }
-    },
-    {
-      "courseName": "Certificate in Hospitality & International Hotel Management",
-      "courseOverview": {
-        "programmeCode": "CERT011",
-        "durationOfStudy": "6 Months",
-        "modeOfStudy": "Full-Time",
-        "campus": "Cardiff",
-        "image": "https://via.placeholder.com/150?text=Certificate+11"
-      }
-    },
-    {
-      "courseName": "Certificate of Business (Hospitality and Tourism Management)",
-      "courseOverview": {
-        "programmeCode": "CERT012",
-        "durationOfStudy": "6 Months",
-        "modeOfStudy": "Part-Time",
-        "campus": "Nottingham",
-        "image": "https://via.placeholder.com/150?text=Certificate+12"
-      }
-    }
-  ],
-  "Bachelor": [
-    {
-      "courseName": "Bachelor in International Hotel Management",
-      "courseOverview": {
-        "programmeCode": "BACH001",
-        "durationOfStudy": "3 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "London",
-        "image": "https://via.placeholder.com/150?text=Bachelor+1"
-      }
-    },
-    {
-      "courseName": "Bachelor in International Tourism Management",
-      "courseOverview": {
-        "programmeCode": "BACH002",
-        "durationOfStudy": "3 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Manchester",
-        "image": "https://via.placeholder.com/150?text=Bachelor+2"
-      }
-    },
-    {
-      "courseName": "Bachelor in Tourism and International Hospitality Management",
-      "courseOverview": {
-        "programmeCode": "BACH003",
-        "durationOfStudy": "3 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Birmingham",
-        "image": "https://via.placeholder.com/150?text=Bachelor+3"
-      }
-    },
-    {
-      "courseName": "Bachelor of International Tourism and Hotel Management",
-      "courseOverview": {
-        "programmeCode": "BACH004",
-        "durationOfStudy": "3 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Leeds",
-        "image": "https://via.placeholder.com/150?text=Bachelor+4"
-      }
-    },
-    {
-      "courseName": "Bachelor in Hotel Management",
-      "courseOverview": {
-        "programmeCode": "BACH005",
-        "durationOfStudy": "3 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Liverpool",
-        "image": "https://via.placeholder.com/150?text=Bachelor+5"
-      }
-    },
-    {
-      "courseName": "Bachelor in Tourism Management",
-      "courseOverview": {
-        "programmeCode": "BACH006",
-        "durationOfStudy": "3 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Edinburgh",
-        "image": "https://via.placeholder.com/150?text=Bachelor+6"
-      }
-    },
-    {
-      "courseName": "Bachelor in International Housekeeping and Accommodation",
-      "courseOverview": {
-        "programmeCode": "BACH007",
-        "durationOfStudy": "3 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Glasgow",
-        "image": "https://via.placeholder.com/150?text=Bachelor+7"
-      }
-    },
-    {
-      "courseName": "Bachelor in Tourism and Hospitality Management",
-      "courseOverview": {
-        "programmeCode": "BACH008",
-        "durationOfStudy": "3 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Sheffield",
-        "image": "https://via.placeholder.com/150?text=Bachelor+8"
-      }
-    },
-    {
-      "courseName": "Bachelor in International Hospitality and Tourism Management",
-      "courseOverview": {
-        "programmeCode": "BACH009",
-        "durationOfStudy": "3 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Newcastle",
-        "image": "https://via.placeholder.com/150?text=Bachelor+9"
-      }
-    },
-    {
-      "courseName": "Bachelor in Global Hotel Management",
-      "courseOverview": {
-        "programmeCode": "BACH010",
-        "durationOfStudy": "3 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Bristol",
-        "image": "https://via.placeholder.com/150?text=Bachelor+10"
-      }
-    },
-    {
-      "courseName": "Bachelor in Hospitality & International Hotel Management",
-      "courseOverview": {
-        "programmeCode": "BACH011",
-        "durationOfStudy": "3 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Cardiff",
-        "image": "https://via.placeholder.com/150?text=Bachelor+11"
-      }
-    },
-    {
-      "courseName": "Bachelor of Business (Hospitality and Tourism Management)",
-      "courseOverview": {
-        "programmeCode": "BACH012",
-        "durationOfStudy": "3 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Nottingham",
-        "image": "https://via.placeholder.com/150?text=Bachelor+12"
-      }
-    }
-  ],
-  "Master": [
-    {
-      "courseName": "Master in International Hotel Management",
-      "courseOverview": {
-        "programmeCode": "MSTR001",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "London",
-        "image": "https://via.placeholder.com/150?text=Master+1"
-      }
-    },
-    {
-      "courseName": "Master in International Tourism Management",
-      "courseOverview": {
-        "programmeCode": "MSTR002",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Manchester",
-        "image": "https://via.placeholder.com/150?text=Master+2"
-      }
-    },
-    {
-      "courseName": "Master in Tourism and International Hospitality Management",
-      "courseOverview": {
-        "programmeCode": "MSTR003",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Birmingham",
-        "image": "https://via.placeholder.com/150?text=Master+3"
-      }
-    },
-    {
-      "courseName": "Master of International Tourism and Hotel Management",
-      "courseOverview": {
-        "programmeCode": "MSTR004",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Leeds",
-        "image": "https://via.placeholder.com/150?text=Master+4"
-      }
-    },
-    {
-      "courseName": "Master in Hotel Management",
-      "courseOverview": {
-        "programmeCode": "MSTR005",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Liverpool",
-        "image": "https://via.placeholder.com/150?text=Master+5"
-      }
-    },
-    {
-      "courseName": "Master in Tourism Management",
-      "courseOverview": {
-        "programmeCode": "MSTR006",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Edinburgh",
-        "image": "https://via.placeholder.com/150?text=Master+6"
-      }
-    },
-    {
-      "courseName": "Master in International Housekeeping and Accommodation",
-      "courseOverview": {
-        "programmeCode": "MSTR007",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Glasgow",
-        "image": "https://via.placeholder.com/150?text=Master+7"
-      }
-    },
-    {
-      "courseName": "Master in Tourism and Hospitality Management",
-      "courseOverview": {
-        "programmeCode": "MSTR008",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Sheffield",
-        "image": "https://via.placeholder.com/150?text=Master+8"
-      }
-    },
-    {
-      "courseName": "Master in International Hospitality and Tourism Management",
-      "courseOverview": {
-        "programmeCode": "MSTR009",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Newcastle",
-        "image": "https://via.placeholder.com/150?text=Master+9"
-      }
-    },
-    {
-      "courseName": "Master in Global Hotel Management",
-      "courseOverview": {
-        "programmeCode": "MSTR010",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Bristol",
-        "image": "https://via.placeholder.com/150?text=Master+10"
-      }
-    },
-    {
-      "courseName": "Master in Hospitality & International Hotel Management",
-      "courseOverview": {
-        "programmeCode": "MSTR011",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Full-Time",
-        "campus": "Cardiff",
-        "image": "https://via.placeholder.com/150?text=Master+11"
-      }
-    },
-    {
-      "courseName": "Master of Business (Hospitality and Tourism Management)",
-      "courseOverview": {
-        "programmeCode": "MSTR012",
-        "durationOfStudy": "2 Years",
-        "modeOfStudy": "Part-Time",
-        "campus": "Nottingham",
-        "image": "https://via.placeholder.com/150?text=Master+12"
-      }
-    }
-  ]
-}
+    "Diploma": [
+      {
+        "courseName": "Diploma in International Hotel Management",
+        "courseOverview": {
+          "programmeCode": "DIP001",
+          "durationOfStudy": "1 Year",
+          "modeOfStudy": "Full-Time",
+          "campus": "Manchester",
+          "image": "https://via.placeholder.com/150?text=Diploma+1"
+        }
+      },
+      {
+        "courseName": "Diploma in International Tourism Management",
+        "courseOverview": {
+          "programmeCode": "DIP002",
+          "durationOfStudy": "1 Year",
+          "modeOfStudy": "Part-Time",
+          "campus": "London",
+          "image": "https://via.placeholder.com/150?text=Diploma+2"
+        }
+      },
+      {
+        "courseName": "Diploma in Tourism and International Hospitality Management",
+        "courseOverview": {
+          "programmeCode": "DIP003",
+          "durationOfStudy": "1 Year",
+          "modeOfStudy": "Full-Time",
+          "campus": "Birmingham",
+          "image": "https://via.placeholder.com/150?text=Diploma+3"
+        }
+      },
+      {
+        "courseName": "Diploma of International Tourism and Hotel Management",
+        "courseOverview": {
+          "programmeCode": "DIP004",
+          "durationOfStudy": "1 Year",
+          "modeOfStudy": "Full-Time",
+          "campus": "Leeds",
+          "image": "https://via.placeholder.com/150?text=Diploma+4"
+        }
+      },
+      {
+        "courseName": "Diploma in Hotel Management",
+        "courseOverview": {
+          "programmeCode": "DIP005",
+          "durationOfStudy": "1 Year",
+          "modeOfStudy": "Full-Time",
+          "campus": "Liverpool",
+          "image": "https://via.placeholder.com/150?text=Diploma+5"
+        }
+      },
+      {
+        "courseName": "Diploma in Tourism Management",
+        "courseOverview": {
+          "programmeCode": "DIP006",
+          "durationOfStudy": "1 Year",
+          "modeOfStudy": "Part-Time",
+          "campus": "Edinburgh",
+          "image": "https://via.placeholder.com/150?text=Diploma+6"
+        }
+      },
+      {
+        "courseName": "Diploma in International Housekeeping and Accommodation",
+        "courseOverview": {
+          "programmeCode": "DIP007",
+          "durationOfStudy": "1 Year",
+          "modeOfStudy": "Full-Time",
+          "campus": "Glasgow",
+          "image": "https://via.placeholder.com/150?text=Diploma+7"
+        }
+      },
+      {
+        "courseName": "Diploma in Tourism and Hospitality Management",
+        "courseOverview": {
+          "programmeCode": "DIP008",
+          "durationOfStudy": "1 Year",
+          "modeOfStudy": "Full-Time",
+          "campus": "Sheffield",
+          "image": "https://via.placeholder.com/150?text=Diploma+8"
+        }
+      },
+      {
+        "courseName": "Diploma in International Hospitality and Tourism Management",
+        "courseOverview": {
+          "programmeCode": "DIP009",
+          "durationOfStudy": "1 Year",
+          "modeOfStudy": "Part-Time",
+          "campus": "Newcastle",
+          "image": "https://via.placeholder.com/150?text=Diploma+9"
+        }
+      },
+      {
+        "courseName": "Diploma in Global Hotel Management",
+        "courseOverview": {
+          "programmeCode": "DIP010",
+          "durationOfStudy": "1 Year",
+          "modeOfStudy": "Full-Time",
+          "campus": "Bristol",
+          "image": "https://via.placeholder.com/150?text=Diploma+10"
+        }
+      },
+      {
+        "courseName": "Diploma in Hospitality & International Hotel Management",
+        "courseOverview": {
+          "programmeCode": "DIP011",
+          "durationOfStudy": "1 Year",
+          "modeOfStudy": "Full-Time",
+          "campus": "Cardiff",
+          "image": "https://via.placeholder.com/150?text=Diploma+11"
+        }
+      },
+      {
+        "courseName": "Diploma of Business (Hospitality and Tourism Management)",
+        "courseOverview": {
+          "programmeCode": "DIP012",
+          "durationOfStudy": "1 Year",
+          "modeOfStudy": "Part-Time",
+          "campus": "Nottingham",
+          "image": "https://via.placeholder.com/150?text=Diploma+12"
+        }
+      }
+    ],
+    "UK Higher Diploma": [
+      {
+        "courseName": "UK Higher Diploma in International Hotel Management",
+        "courseOverview": {
+          "programmeCode": "UKHD001",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "London",
+          "image": "https://via.placeholder.com/150?text=UKHD+1"
+        }
+      },
+      {
+        "courseName": "UK Higher Diploma in International Tourism Management",
+        "courseOverview": {
+          "programmeCode": "UKHD002",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Manchester",
+          "image": "https://via.placeholder.com/150?text=UKHD+2"
+        }
+      },
+      {
+        "courseName": "UK Higher Diploma in Tourism and International Hospitality Management",
+        "courseOverview": {
+          "programmeCode": "UKHD003",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Birmingham",
+          "image": "https://via.placeholder.com/150?text=UKHD+3"
+        }
+      },
+      {
+        "courseName": "UK Higher Diploma of International Tourism and Hotel Management",
+        "courseOverview": {
+          "programmeCode": "UKHD004",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Leeds",
+          "image": "https://via.placeholder.com/150?text=UKHD+4"
+        }
+      },
+      {
+        "courseName": "UK Higher Diploma in Hotel Management",
+        "courseOverview": {
+          "programmeCode": "UKHD005",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Liverpool",
+          "image": "https://via.placeholder.com/150?text=UKHD+5"
+        }
+      },
+      {
+        "courseName": "UK Higher Diploma in Tourism Management",
+        "courseOverview": {
+          "programmeCode": "UKHD006",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Edinburgh",
+          "image": "https://via.placeholder.com/150?text=UKHD+6"
+        }
+      },
+      {
+        "courseName": "UK Higher Diploma in International Housekeeping and Accommodation",
+        "courseOverview": {
+          "programmeCode": "UKHD007",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Glasgow",
+          "image": "https://via.placeholder.com/150?text=UKHD+7"
+        }
+      },
+      {
+        "courseName": "UK Higher Diploma in Tourism and Hospitality Management",
+        "courseOverview": {
+          "programmeCode": "UKHD008",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Sheffield",
+          "image": "https://via.placeholder.com/150?text=UKHD+8"
+        }
+      },
+      {
+        "courseName": "UK Higher Diploma in International Hospitality and Tourism Management",
+        "courseOverview": {
+          "programmeCode": "UKHD009",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Newcastle",
+          "image": "https://via.placeholder.com/150?text=UKHD+9"
+        }
+      },
+      {
+        "courseName": "UK Higher Diploma in Global Hotel Management",
+        "courseOverview": {
+          "programmeCode": "UKHD010",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Bristol",
+          "image": "https://via.placeholder.com/150?text=UKHD+10"
+        }
+      },
+      {
+        "courseName": "UK Higher Diploma in Hospitality & International Hotel Management",
+        "courseOverview": {
+          "programmeCode": "UKHD011",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Cardiff",
+          "image": "https://via.placeholder.com/150?text=UKHD+11"
+        }
+      },
+      {
+        "courseName": "UK Higher Diploma of Business (Hospitality and Tourism Management)",
+        "courseOverview": {
+          "programmeCode": "UKHD012",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Nottingham",
+          "image": "https://via.placeholder.com/150?text=UKHD+12"
+        }
+      }
+    ],
+    "Advanced Diploma": [
+      {
+        "courseName": "Advanced Diploma in International Hotel Management",
+        "courseOverview": {
+          "programmeCode": "ADV_DIP001",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "London",
+          "image": "https://via.placeholder.com/150?text=AdvDiploma+1"
+        }
+      },
+      {
+        "courseName": "Advanced Diploma in International Tourism Management",
+        "courseOverview": {
+          "programmeCode": "ADV_DIP002",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Manchester",
+          "image": "https://via.placeholder.com/150?text=AdvDiploma+2"
+        }
+      },
+      {
+        "courseName": "Advanced Diploma in Tourism and International Hospitality Management",
+        "courseOverview": {
+          "programmeCode": "ADV_DIP003",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Birmingham",
+          "image": "https://via.placeholder.com/150?text=AdvDiploma+3"
+        }
+      },
+      {
+        "courseName": "Advanced Diploma of International Tourism and Hotel Management",
+        "courseOverview": {
+          "programmeCode": "ADV_DIP004",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Leeds",
+          "image": "https://via.placeholder.com/150?text=AdvDiploma+4"
+        }
+      },
+      {
+        "courseName": "Advanced Diploma in Hotel Management",
+        "courseOverview": {
+          "programmeCode": "ADV_DIP005",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Liverpool",
+          "image": "https://via.placeholder.com/150?text=AdvDiploma+5"
+        }
+      },
+      {
+        "courseName": "Advanced Diploma in Tourism Management",
+        "courseOverview": {
+          "programmeCode": "ADV_DIP006",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Edinburgh",
+          "image": "https://via.placeholder.com/150?text=AdvDiploma+6"
+        }
+      },
+      {
+        "courseName": "Advanced Diploma in International Housekeeping and Accommodation",
+        "courseOverview": {
+          "programmeCode": "ADV_DIP007",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Glasgow",
+          "image": "https://via.placeholder.com/150?text=AdvDiploma+7"
+        }
+      },
+      {
+        "courseName": "Advanced Diploma in Tourism and Hospitality Management",
+        "courseOverview": {
+          "programmeCode": "ADV_DIP008",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Sheffield",
+          "image": "https://via.placeholder.com/150?text=AdvDiploma+8"
+        }
+      },
+      {
+        "courseName": "Advanced Diploma in International Hospitality and Tourism Management",
+        "courseOverview": {
+          "programmeCode": "ADV_DIP009",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Newcastle",
+          "image": "https://via.placeholder.com/150?text=AdvDiploma+9"
+        }
+      },
+      {
+        "courseName": "Advanced Diploma in Global Hotel Management",
+        "courseOverview": {
+          "programmeCode": "ADV_DIP010",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Bristol",
+          "image": "https://via.placeholder.com/150?text=AdvDiploma+10"
+        }
+      },
+      {
+        "courseName": "Advanced Diploma in Hospitality & International Hotel Management",
+        "courseOverview": {
+          "programmeCode": "ADV_DIP011",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Cardiff",
+          "image": "https://via.placeholder.com/150?text=AdvDiploma+11"
+        }
+      },
+      {
+        "courseName": "Advanced Diploma of Business (Hospitality and Tourism Management)",
+        "courseOverview": {
+          "programmeCode": "ADV_DIP012",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Nottingham",
+          "image": "https://via.placeholder.com/150?text=AdvDiploma+12"
+        }
+      }
+    ],
+    "Certificate": [
+      {
+        "courseName": "Certificate in International Hotel Management",
+        "courseOverview": {
+          "programmeCode": "CERT001",
+          "durationOfStudy": "6 Months",
+          "modeOfStudy": "Full-Time",
+          "campus": "London",
+          "image": "https://via.placeholder.com/150?text=Certificate+1"
+        }
+      },
+      {
+        "courseName": "Certificate in International Tourism Management",
+        "courseOverview": {
+          "programmeCode": "CERT002",
+          "durationOfStudy": "6 Months",
+          "modeOfStudy": "Part-Time",
+          "campus": "Manchester",
+          "image": "https://via.placeholder.com/150?text=Certificate+2"
+        }
+      },
+      {
+        "courseName": "Certificate in Tourism and International Hospitality Management",
+        "courseOverview": {
+          "programmeCode": "CERT003",
+          "durationOfStudy": "6 Months",
+          "modeOfStudy": "Full-Time",
+          "campus": "Birmingham",
+          "image": "https://via.placeholder.com/150?text=Certificate+3"
+        }
+      },
+      {
+        "courseName": "Certificate of International Tourism and Hotel Management",
+        "courseOverview": {
+          "programmeCode": "CERT004",
+          "durationOfStudy": "6 Months",
+          "modeOfStudy": "Full-Time",
+          "campus": "Leeds",
+          "image": "https://via.placeholder.com/150?text=Certificate+4"
+        }
+      },
+      {
+        "courseName": "Certificate in Hotel Management",
+        "courseOverview": {
+          "programmeCode": "CERT005",
+          "durationOfStudy": "6 Months",
+          "modeOfStudy": "Full-Time",
+          "campus": "Liverpool",
+          "image": "https://via.placeholder.com/150?text=Certificate+5"
+        }
+      },
+      {
+        "courseName": "Certificate in Tourism Management",
+        "courseOverview": {
+          "programmeCode": "CERT006",
+          "durationOfStudy": "6 Months",
+          "modeOfStudy": "Part-Time",
+          "campus": "Edinburgh",
+          "image": "https://via.placeholder.com/150?text=Certificate+6"
+        }
+      },
+      {
+        "courseName": "Certificate in International Housekeeping and Accommodation",
+        "courseOverview": {
+          "programmeCode": "CERT007",
+          "durationOfStudy": "6 Months",
+          "modeOfStudy": "Full-Time",
+          "campus": "Glasgow",
+          "image": "https://via.placeholder.com/150?text=Certificate+7"
+        }
+      },
+      {
+        "courseName": "Certificate in Tourism and Hospitality Management",
+        "courseOverview": {
+          "programmeCode": "CERT008",
+          "durationOfStudy": "6 Months",
+          "modeOfStudy": "Full-Time",
+          "campus": "Sheffield",
+          "image": "https://via.placeholder.com/150?text=Certificate+8"
+        }
+      },
+      {
+        "courseName": "Certificate in International Hospitality and Tourism Management",
+        "courseOverview": {
+          "programmeCode": "CERT009",
+          "durationOfStudy": "6 Months",
+          "modeOfStudy": "Part-Time",
+          "campus": "Newcastle",
+          "image": "https://via.placeholder.com/150?text=Certificate+9"
+        }
+      },
+      {
+        "courseName": "Certificate in Global Hotel Management",
+        "courseOverview": {
+          "programmeCode": "CERT010",
+          "durationOfStudy": "6 Months",
+          "modeOfStudy": "Full-Time",
+          "campus": "Bristol",
+          "image": "https://via.placeholder.com/150?text=Certificate+10"
+        }
+      },
+      {
+        "courseName": "Certificate in Hospitality & International Hotel Management",
+        "courseOverview": {
+          "programmeCode": "CERT011",
+          "durationOfStudy": "6 Months",
+          "modeOfStudy": "Full-Time",
+          "campus": "Cardiff",
+          "image": "https://via.placeholder.com/150?text=Certificate+11"
+        }
+      },
+      {
+        "courseName": "Certificate of Business (Hospitality and Tourism Management)",
+        "courseOverview": {
+          "programmeCode": "CERT012",
+          "durationOfStudy": "6 Months",
+          "modeOfStudy": "Part-Time",
+          "campus": "Nottingham",
+          "image": "https://via.placeholder.com/150?text=Certificate+12"
+        }
+      }
+    ],
+    "Bachelor": [
+      {
+        "courseName": "Bachelor in International Hotel Management",
+        "courseOverview": {
+          "programmeCode": "BACH001",
+          "durationOfStudy": "3 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "London",
+          "image": "https://via.placeholder.com/150?text=Bachelor+1"
+        }
+      },
+      {
+        "courseName": "Bachelor in International Tourism Management",
+        "courseOverview": {
+          "programmeCode": "BACH002",
+          "durationOfStudy": "3 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Manchester",
+          "image": "https://via.placeholder.com/150?text=Bachelor+2"
+        }
+      },
+      {
+        "courseName": "Bachelor in Tourism and International Hospitality Management",
+        "courseOverview": {
+          "programmeCode": "BACH003",
+          "durationOfStudy": "3 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Birmingham",
+          "image": "https://via.placeholder.com/150?text=Bachelor+3"
+        }
+      },
+      {
+        "courseName": "Bachelor of International Tourism and Hotel Management",
+        "courseOverview": {
+          "programmeCode": "BACH004",
+          "durationOfStudy": "3 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Leeds",
+          "image": "https://via.placeholder.com/150?text=Bachelor+4"
+        }
+      },
+      {
+        "courseName": "Bachelor in Hotel Management",
+        "courseOverview": {
+          "programmeCode": "BACH005",
+          "durationOfStudy": "3 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Liverpool",
+          "image": "https://via.placeholder.com/150?text=Bachelor+5"
+        }
+      },
+      {
+        "courseName": "Bachelor in Tourism Management",
+        "courseOverview": {
+          "programmeCode": "BACH006",
+          "durationOfStudy": "3 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Edinburgh",
+          "image": "https://via.placeholder.com/150?text=Bachelor+6"
+        }
+      },
+      {
+        "courseName": "Bachelor in International Housekeeping and Accommodation",
+        "courseOverview": {
+          "programmeCode": "BACH007",
+          "durationOfStudy": "3 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Glasgow",
+          "image": "https://via.placeholder.com/150?text=Bachelor+7"
+        }
+      },
+      {
+        "courseName": "Bachelor in Tourism and Hospitality Management",
+        "courseOverview": {
+          "programmeCode": "BACH008",
+          "durationOfStudy": "3 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Sheffield",
+          "image": "https://via.placeholder.com/150?text=Bachelor+8"
+        }
+      },
+      {
+        "courseName": "Bachelor in International Hospitality and Tourism Management",
+        "courseOverview": {
+          "programmeCode": "BACH009",
+          "durationOfStudy": "3 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Newcastle",
+          "image": "https://via.placeholder.com/150?text=Bachelor+9"
+        }
+      },
+      {
+        "courseName": "Bachelor in Global Hotel Management",
+        "courseOverview": {
+          "programmeCode": "BACH010",
+          "durationOfStudy": "3 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Bristol",
+          "image": "https://via.placeholder.com/150?text=Bachelor+10"
+        }
+      },
+      {
+        "courseName": "Bachelor in Hospitality & International Hotel Management",
+        "courseOverview": {
+          "programmeCode": "BACH011",
+          "durationOfStudy": "3 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Cardiff",
+          "image": "https://via.placeholder.com/150?text=Bachelor+11"
+        }
+      },
+      {
+        "courseName": "Bachelor of Business (Hospitality and Tourism Management)",
+        "courseOverview": {
+          "programmeCode": "BACH012",
+          "durationOfStudy": "3 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Nottingham",
+          "image": "https://via.placeholder.com/150?text=Bachelor+12"
+        }
+      }
+    ],
+    "Master": [
+      {
+        "courseName": "Master in International Hotel Management",
+        "courseOverview": {
+          "programmeCode": "MSTR001",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "London",
+          "image": "https://via.placeholder.com/150?text=Master+1"
+        }
+      },
+      {
+        "courseName": "Master in International Tourism Management",
+        "courseOverview": {
+          "programmeCode": "MSTR002",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Manchester",
+          "image": "https://via.placeholder.com/150?text=Master+2"
+        }
+      },
+      {
+        "courseName": "Master in Tourism and International Hospitality Management",
+        "courseOverview": {
+          "programmeCode": "MSTR003",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Birmingham",
+          "image": "https://via.placeholder.com/150?text=Master+3"
+        }
+      },
+      {
+        "courseName": "Master of International Tourism and Hotel Management",
+        "courseOverview": {
+          "programmeCode": "MSTR004",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Leeds",
+          "image": "https://via.placeholder.com/150?text=Master+4"
+        }
+      },
+      {
+        "courseName": "Master in Hotel Management",
+        "courseOverview": {
+          "programmeCode": "MSTR005",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Liverpool",
+          "image": "https://via.placeholder.com/150?text=Master+5"
+        }
+      },
+      {
+        "courseName": "Master in Tourism Management",
+        "courseOverview": {
+          "programmeCode": "MSTR006",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Edinburgh",
+          "image": "https://via.placeholder.com/150?text=Master+6"
+        }
+      },
+      {
+        "courseName": "Master in International Housekeeping and Accommodation",
+        "courseOverview": {
+          "programmeCode": "MSTR007",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Glasgow",
+          "image": "https://via.placeholder.com/150?text=Master+7"
+        }
+      },
+      {
+        "courseName": "Master in Tourism and Hospitality Management",
+        "courseOverview": {
+          "programmeCode": "MSTR008",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Sheffield",
+          "image": "https://via.placeholder.com/150?text=Master+8"
+        }
+      },
+      {
+        "courseName": "Master in International Hospitality and Tourism Management",
+        "courseOverview": {
+          "programmeCode": "MSTR009",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Newcastle",
+          "image": "https://via.placeholder.com/150?text=Master+9"
+        }
+      },
+      {
+        "courseName": "Master in Global Hotel Management",
+        "courseOverview": {
+          "programmeCode": "MSTR010",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Bristol",
+          "image": "https://via.placeholder.com/150?text=Master+10"
+        }
+      },
+      {
+        "courseName": "Master in Hospitality & International Hotel Management",
+        "courseOverview": {
+          "programmeCode": "MSTR011",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Full-Time",
+          "campus": "Cardiff",
+          "image": "https://via.placeholder.com/150?text=Master+11"
+        }
+      },
+      {
+        "courseName": "Master of Business (Hospitality and Tourism Management)",
+        "courseOverview": {
+          "programmeCode": "MSTR012",
+          "durationOfStudy": "2 Years",
+          "modeOfStudy": "Part-Time",
+          "campus": "Nottingham",
+          "image": "https://via.placeholder.com/150?text=Master+12"
+        }
+      }
+    ]
+  }
+  
